@@ -1,0 +1,91 @@
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner .swiper {
+  width: 240px;
+  height: 320px;
+}
+
+.banner .swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  overflow: hidden;
+
+  /* Set background size to cover */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.banner .swiper-slide:nth-child(1n) {
+  background-image: url("src/assets/swipper-banner/candp.jpg");
+}
+
+.banner .swiper-slide:nth-child(2n) {
+  background-image: url("src/assets/swipper-banner/sh.jpg");
+}
+
+.banner .swiper-slide:nth-child(3n) {
+  background-image: url("src/assets/swipper-banner/tth.jpg");
+}
+
+.banner .swiper-slide:nth-child(4n) {
+  background-image: url("src/assets/swipper-banner/pof.jpg");
+}
+
+.banner .swiper-slide:nth-child(5n) {
+  background-image: url("src/assets/swipper-banner/tgg.jpg");
+}
+
+.banner .swiper-slide:nth-child(6n) {
+  background-image: url("src/assets/swipper-banner/fothou.jpg");
+}
+
+.banner .swiper-slide:nth-child(7n) {
+  background-image: url("src/assets/swipper-banner/raj.jpg");
+}
+
+.banner .swiper-slide:nth-child(8n) {
+  background-image: url("src/assets/swipper-banner/hobv.jpg");
+}
