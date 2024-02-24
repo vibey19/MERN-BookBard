@@ -7,7 +7,7 @@ const FavoritePage = () => {
   useEffect(() => {
     fetch("http://localhost:5000/all-books")
       .then((res) => res.json())
-      .then((data) => setBooks(data));
+      .then((data) => setBooks(data.slice(0, 6)));
   }, []);
   return (
     <div className="my-16 px-4 lg:px-24">
