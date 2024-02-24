@@ -2,6 +2,7 @@ import React from "react";
 import Banner from "../components/Banner";
 import FavoritePage from "./FavoritePage";
 import BookBundle from "./BookBundle";
+import PromoBanner from "./PromoBanner";
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
       <Banner />
       <FavoritePage />
       <BookBundle />
+      <PromoBanner />
     </div>
   );
 };
